@@ -1,2 +1,2 @@
-# vcvc.nl
+# vcvc
 Source for my personal website
