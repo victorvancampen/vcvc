@@ -1,0 +1,33 @@
+baseURL = 'https://vcvc.nl/'
+locale = 'nl-NL'
+theme = 'hugo-theme-console'
+title = 'Victor van Campen'
+
+[[module.imports]]
+  path = "github.com/mrmierzejewski/hugo-theme-console"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[params]
+  description = "Portfolio and blog on garden and landscape design"
+
+# Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+ # Set the animation style -- https://animate.style/
+ # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated zoomIn fast" 
+
+[[params.navlinks]]
+  name = "About"
+  url = "/about/"
+
+[[params.navlinks]]
+  name = "Posts"
+  url = "/posts/"
+
+[[params.navlinks]]
+  name = "Photos"
+  url = "/photos/"  
