@@ -1,6 +1,6 @@
 +++
 image = "IMG_E0867.webp"
-date = "2026-05-18"
+date = "2026-05-01"
 title = "Delphinium"
 type = "gallery"
 +++
