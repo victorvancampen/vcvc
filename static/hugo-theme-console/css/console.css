@@ -365,7 +365,7 @@ a.no-style.site-name {
     float: right;
     width: 120px;
     margin: 5px 0 15px 25px;
-    border: 1px solid var(--font-color);
+    border: 1px solid var(--primary-color);
     
     /* Makes it blend in */
     filter: grayscale(100%);
