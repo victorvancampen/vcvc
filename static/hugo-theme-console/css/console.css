@@ -360,3 +360,20 @@ a.no-style.site-name {
     margin: 0;
     padding: 0;
 }
+
+.profile-subtle {
+    float: right;
+    width: 120px;
+    margin: 5px 0 15px 25px;
+    border: 1px solid var(--font-color);
+    
+    /* Makes it blend in */
+    filter: grayscale(100%);
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.profile-subtle:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
