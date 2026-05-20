@@ -1,4 +1,4 @@
-<<{{ $image := .Page.Resources.GetMatch (.Get "src") }}
+{{ $image := .Page.Resources.GetMatch (.Get "src") }}
 {{ if $image }}
   {{ $resized := $image.Resize "800x webp" }}
   <figure>
@@ -9,4 +9,4 @@
   </figure>
 {{ else }}
   <p style="color: #DD4124">Image not found: {{ .Get "src" }}</p>
-{{ end }}>>
+{{ end }}
