@@ -362,7 +362,7 @@ a.no-style.site-name {
 }
 
 .profile-subtle {
-    float: left;
+    float: right;
     width: 120px;
     margin: 5px 0 15px 25px;
     border: 2px solid var(--primary-color);
