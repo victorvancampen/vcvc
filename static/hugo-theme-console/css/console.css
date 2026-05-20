@@ -362,10 +362,10 @@ a.no-style.site-name {
 }
 
 .profile-subtle {
-    float: right;
+    float: left;
     width: 120px;
     margin: 5px 0 15px 25px;
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
     
     /* Makes it blend in */
     filter: grayscale(100%);
