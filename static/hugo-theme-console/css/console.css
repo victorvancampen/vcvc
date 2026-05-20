@@ -335,3 +335,26 @@ figure {
 a.no-style.site-name {
   font-weight: 600 !important;
 }
+
+/* Container fix to handle layout spacing */
+.post {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Specific styling for the moved thumbnail */
+.post img.img-responsive {
+    width: 50% !important;   /* Force width to 50% */
+    height: auto !important; /* Allow aspect-ratio to control height */
+    aspect-ratio: 16 / 9;    /* Maintain widescreen ratio */
+    object-fit: cover;       /* Crop image to fit 16:9 without stretching */
+    border-radius: 8px;      /* Rounded corners */
+    margin: 20px 0 !important; /* Space above and below */
+    display: block;
+}
+
+/* Optional: Ensure the paragraph wrapper doesn't add extra wonky margins */
+.post p:has(img.img-responsive) {
+    margin: 0;
+    padding: 0;
+}

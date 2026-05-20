@@ -28,6 +28,26 @@
 
     {{- partial "header.html" . -}}
 </head>
+
+<!--Thumbnail script-->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const post = document.querySelector('.post');
+    if (!post) return;
+
+    const h1 = post.querySelector('h1');
+    const image = post.querySelector('img.img-responsive');
+    
+    // If the image is wrapped in a <p>, we want to move the whole paragraph
+    const imageWrapper = image ? image.closest('p') || image : null;
+
+    if (h1 && imageWrapper) {
+        h1.insertAdjacentElement('afterend', imageWrapper);
+    }
+});
+</script>
+<!--End Thumbnail script-->
+
 <body class="terminal">
     <div class="container">
         <div class="terminal-nav">
