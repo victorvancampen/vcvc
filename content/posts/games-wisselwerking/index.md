@@ -1,7 +1,7 @@
 +++
 date = "2026-06-13"
 title = "De invloed van games op mijn gedachten over landschap"
-image = "/images/invloed-games/games-wisselwerking.svg"
+image = "/images/invloed-games/games-wisselwerking.png"
 +++
 ## De invloed van games op mijn gedachten over landschap
 _"Life imitates Art far more than Art imitates Life"_
@@ -13,7 +13,7 @@ Een tijdje terug luisterde ik een podcast met Swen Vincke van Larian Studio’s,
 
 Deze gedachtenuitwisseling met een van de breinen achter het bekroonde Baldur’s Gate en de invloed van persoonlijke voorkeuren op (spel)ontwerp vind ik natuurlijk interessant. Maar ik wil nog een stap verder gaan, is er ook sprake van wederzijdse beïnvloeding, zoals weergegeven in het plaatje hieronder?
 
-![Wisselwerking](/images/invloed-games/games-wisselwerking.svg)
+![Wisselwerking](/images/invloed-games/games-wisselwerking.png)
 
 ### Weg met clichés
 Maar eerst moet me dit van het hart: ik zal alle clichés overslaan dat games enerzijds laagcultuur of voor zolderkamernerds zouden zijn, of anderzijds juist een ondergewaardeerde kunstvorm, want ze kloppen geen van allen. In het Concertgebouw wordt game-muziek gespeeld. Van House of Cards (Call of Duty) tot Stranger Things (Dungeons & Dragons, waarop Baldur’s Gate 3 is geïnspireerd), megahit tv-series bevestigen en vergroten de plek van gamen in de mainstream. Een ondergewaardeerde kunstvorm zijn games ook weer niet, getuige de cultuurkatern van elke serieuze krant en de voor zo ver ik nu weet levendige academische discussie over games en landschap (daarover straks meer).
@@ -33,7 +33,6 @@ De verhouding van speler tot landschap, dat is dus de kern van dit verhaal. Eers
 Een van de fundamentele vakken tijdens mijn opleiding was _landschapsanalyse_. Binnen een bepaald kaartoppervlak van (bijvoorbeeld) 5 x 10 km maak je analyses en kaarten van verschillende lagen: geologie, geomorfologie, bodem, water, netwerken, bebouwing, vegetatie (voornamelijk bos en bomen) en ruimte en massa. Een hele stapel kalkpapier verder kan je de lagen op verschillende manieren over elkaar leggen.
 
 ![Landschapsanalyse](/images/invloed-games/landschapsanalyse-1.webp)
-![Landschapsanalyse](/images/invloed-games/landschapsanalyse-2.webp)
 
 Het doel is vervolgen om de _samenhang_ in het landschap te duiden. Voor het gebied waar ik woon zou de samenhang bijvoorbeeld _reliëf_ kunnen zijn: de grote gemene deler die bepalend is voor de beleving van het landschap. Maar op basis van je analyse en de zwaartepunten die je legt kan je ook tot een andere conclusie komen. Het gaat om het proces, zorgvuldigheid en begrip. De benadering is nadrukkelijk inductief (van data naar theorie). Landschapsanalyse stelt een landschapsontwerper in staat om een ontwerp te maken dat is aangepast aan de context van het landschap, de _genius loci_ – en uiteindelijk onderscheidt zo’n ontwerp zich omdat het vaak bruikbaarder, duurzamer en aantrekkelijker is.
 
@@ -49,6 +48,7 @@ Een andere, veel voorkomende manier waarop landschap in games wordt toegepast is
 
 ### Autonomie
 Een derde, diepere manier waarop landschap in games wordt toegepast - en dit is uniek aan games – is interactie. Het ontwerp is diep doordrongen van de mogelijkheid van wederzijdse beïnvloeding tussen speler en omgeving. Speler en landschap passen zich steeds aan: de wisselwerking tussen spelwereld en speler maakt het landschap tot wat het is en hoe de speler het beleeft. Deze manier van ontwerpen toont de kracht van games. Een ontwikkelaar schrijft niet, of niet alleen, voor hoe de speler zich bij het landschap moet voelen. Veel belangrijker: de ontwerper geeft de speler heel bewust ruimte om zich te verhouden tot het landschap zoals de speler zelf, gegeven zijn of haar omstandigheden, wil.
+
 ![Journey, een voorbeeld van wisselwerking]( https://gamersolace.wordpress.com/wp-content/uploads/2016/07/journey-gif.gif)
 
 ### Tot slot
