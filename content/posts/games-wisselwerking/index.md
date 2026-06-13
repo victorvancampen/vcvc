@@ -3,8 +3,7 @@ date = "2026-06-13"
 title = "De invloed van games op mijn gedachten over landschap"
 image = "/images/invloed-games/landschapsanalyse-2.webp"
 +++
-## De invloed van games op mijn gedachten over landschap
-_"Life imitates Art far more than Art imitates Life"_
+## _"Life imitates Art far more than Art imitates Life"_
 
 Het leuke aan een eigen website is dat ik er min of meer mee kan doen wat ik wil. De blog is vooral een soort tijdbeeld van wat ik op dat moment interessant vind. De laatste tijd was ik in mijn hoofd steeds bezig met de vraag waarom ik denk zoals ik denk over landschap en landschapsontwerp. Wat is bijvoorbeeld de invloed geweest van een van mijn hobby’s, gamen?
 
