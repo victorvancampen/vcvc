@@ -1,7 +1,7 @@
 +++
 date = "2026-06-13"
 title = "De invloed van games op mijn gedachten over landschap"
-image = "/images/invloed-games/landschapsanalyse-2.webp"
+image = "/images/invloed-games/games-wisselwerking.png"
 +++
 ## De invloed van games op mijn gedachten over landschap
 _"Life imitates Art far more than Art imitates Life"_
