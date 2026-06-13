@@ -15,6 +15,7 @@ Een tijdje terug luisterde ik een podcast met Swen Vincke van Larian Studio’s,
 Deze gedachtenuitwisseling met een van de breinen achter het bekroonde Baldur’s Gate en de invloed van persoonlijke voorkeuren op (spel)ontwerp vind ik natuurlijk interessant. Maar ik wil nog een stap verder gaan, is er ook sprake van wederzijdse beïnvloeding, zoals weergegeven in het plaatje hieronder?
 
 ![Wisselwerking](/images/invloed-games/games-wisselwerking.png)
+<!--more-->
 
 ### Weg met clichés
 Maar eerst moet me dit van het hart: ik zal alle clichés overslaan dat games enerzijds laagcultuur of voor zolderkamernerds zouden zijn, of anderzijds juist een ondergewaardeerde kunstvorm, want ze kloppen geen van allen. In het Concertgebouw wordt game-muziek gespeeld. Van House of Cards (Call of Duty) tot Stranger Things (Dungeons & Dragons, waarop Baldur’s Gate 3 is geïnspireerd), megahit tv-series bevestigen en vergroten de plek van gamen in de mainstream. Een ondergewaardeerde kunstvorm zijn games ook weer niet, getuige de cultuurkatern van elke serieuze krant en de voor zo ver ik nu weet levendige academische discussie over games en landschap (daarover straks meer).
