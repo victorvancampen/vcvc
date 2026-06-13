@@ -10,7 +10,7 @@ Het leuke aan een eigen website is dat ik er min of meer mee kan doen wat ik wil
 
 Een tijdje terug luisterde ik een podcast met Swen Vincke van Larian Studio’s, de makers van Baldur’s Gate 3 (game van het jaar 2023). Vincke vertelt daarin over de startomgeving van het spel. De play-knop start automatisch op minuut 40:40, het stukje duurt tot ongeveer een minuut daarna:
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6S80SBIIKEcJUxrfTW4vj2?utm_source=generator&t=2438" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+{{< spotify track 6S80SBIIKEcJUxrfTW4vj2&t=2438 >}}
 
 Deze gedachtenuitwisseling met een van de breinen achter het bekroonde Baldur’s Gate en de invloed van persoonlijke voorkeuren op (spel)ontwerp vind ik natuurlijk interessant. Maar ik wil nog een stap verder gaan, is er ook sprake van wederzijdse beïnvloeding, zoals weergegeven in het plaatje hieronder?
 
