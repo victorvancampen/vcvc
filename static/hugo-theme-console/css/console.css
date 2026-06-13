@@ -378,10 +378,12 @@ a.no-style.site-name {
     opacity: 1;
 }
 
-/* This forces the line to reappear under all post titles */
-h1 {
-    border-bottom: 1px solid var(--font-color) !important;
-    display: block;
+h1::after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    height: 1px;
     width: 100%;
-    padding-bottom: 0.5rem;
+    background-color: var(--font-color); /* Uses your theme's defined font color */
 }
