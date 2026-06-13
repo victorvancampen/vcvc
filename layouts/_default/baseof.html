@@ -32,21 +32,16 @@
 <!--Thumbnail script-->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  // Select all post containers on the page
   const posts = document.querySelectorAll(".post");
-  
   posts.forEach(post => {
     const title = post.querySelector("h1");
     const img = post.querySelector("img.img-responsive");
-    // Find the image or the paragraph containing the image
-    const imageElement = img ? img.closest("p") || img : null;
-    
-    // Move the image immediately after the title
-    if (title && imageElement) {
-      title.insertAdjacentElement("afterend", imageElement);
+    const target = img ? img.closest("p") || img : null;
+    if (title && target) {
+      title.insertAdjacentElement("afterend", target);
     }
-  });
-});
+  }); // <--- Make sure this is here!
+});   // <--- And this!
 </script>
 <!--End Thumbnail script-->
 
