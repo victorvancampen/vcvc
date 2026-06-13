@@ -377,3 +377,11 @@ a.no-style.site-name {
     filter: grayscale(0%);
     opacity: 1;
 }
+
+/* This forces the line to reappear under all post titles */
+.post h1 {
+    border-bottom: 1px solid var(--font-color) !important;
+    display: block;
+    width: 100%;
+    padding-bottom: 0.5rem;
+}
