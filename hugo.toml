@@ -1,5 +1,6 @@
 baseURL = 'https://vcvc.nl/'
 locale = 'en-NL'
+languageCode = "en-gb"
 theme = 'hugo-theme-console'
 title = 'Victor van Campen'
 
