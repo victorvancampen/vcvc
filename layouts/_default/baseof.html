@@ -31,19 +31,21 @@
 
 <!--Thumbnail script-->
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    const post = document.querySelector('.post');
-    if (!post) return;
-
-    const h1 = post.querySelector('h1');
-    const image = post.querySelector('img.img-responsive');
+document.addEventListener("DOMContentLoaded", function() {
+  // Select all post containers on the page
+  const posts = document.querySelectorAll(".post");
+  
+  posts.forEach(post => {
+    const title = post.querySelector("h1");
+    const img = post.querySelector("img.img-responsive");
+    // Find the image or the paragraph containing the image
+    const imageElement = img ? img.closest("p") || img : null;
     
-    // If the image is wrapped in a <p>, we want to move the whole paragraph
-    const imageWrapper = image ? image.closest('p') || image : null;
-
-    if (h1 && imageWrapper) {
-        h1.insertAdjacentElement('afterend', imageWrapper);
+    // Move the image immediately after the title
+    if (title && imageElement) {
+      title.insertAdjacentElement("afterend", imageElement);
     }
+  });
 });
 </script>
 <!--End Thumbnail script-->
