@@ -33,7 +33,7 @@ Veel jargon, maar deze opsomming laat mooi zien dat landschap en games niet alle
 
 De verhouding van speler tot landschap, dat is dus de kern van dit verhaal. Eerst beschouw ik dit vanuit de manier waarop ik ben opgeleid als landschapsontwerper. Daarna ga ik op zoek naar hoe die verhouding voor games werkt.
 
-### De heilige graal – de genius loci
+### De heilige graal – de _genius loci_
 Een van de fundamentele vakken tijdens mijn opleiding was _landschapsanalyse_. Binnen een bepaald kaartoppervlak van (bijvoorbeeld) 5 x 10 km maak je analyses en kaarten van verschillende lagen: geologie, geomorfologie, bodem, water, netwerken, bebouwing, vegetatie (voornamelijk bos en bomen) en ruimte en massa. Een hele stapel kalkpapier verder kan je de lagen op verschillende manieren over elkaar leggen.
 
 ![Landschapsanalyse](/images/invloed-games/landschapsanalyse-2.webp)
