@@ -1,7 +1,7 @@
 +++
 date = "2026-06-13"
 title = "De invloed van games op mijn gedachten over landschap"
-image = "/images/invloed-games/games-wisselwerking.png"
+image = "/images/invloed-games/landschapsanalyse-2.webp"
 +++
 ## De invloed van games op mijn gedachten over landschap
 _"Life imitates Art far more than Art imitates Life"_
@@ -9,6 +9,7 @@ _"Life imitates Art far more than Art imitates Life"_
 Het leuke aan een eigen website is dat ik er min of meer mee kan doen wat ik wil. De blog is vooral een soort tijdbeeld van wat ik op dat moment interessant vind. De laatste tijd was ik in mijn hoofd steeds bezig met de vraag waarom ik denk zoals ik denk over landschap en landschapsontwerp. Wat is bijvoorbeeld de invloed geweest van een van mijn hobby’s, gamen? 
 
 Een tijdje terug luisterde ik een podcast met Swen Vincke van Larian Studio’s, de makers van Baldur’s Gate 3 (game van het jaar 2023). Vincke vertelt daarin over de startomgeving van het spel. De play-knop start automatisch op minuut 40:40, het stukje duurt tot ongeveer een minuut daarna:
+
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6S80SBIIKEcJUxrfTW4vj2?utm_source=generator&t=2438" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 Deze gedachtenuitwisseling met een van de breinen achter het bekroonde Baldur’s Gate en de invloed van persoonlijke voorkeuren op (spel)ontwerp vind ik natuurlijk interessant. Maar ik wil nog een stap verder gaan, is er ook sprake van wederzijdse beïnvloeding, zoals weergegeven in het plaatje hieronder?
@@ -32,7 +33,7 @@ De verhouding van speler tot landschap, dat is dus de kern van dit verhaal. Eers
 ### De heilige graal – de genius loci
 Een van de fundamentele vakken tijdens mijn opleiding was _landschapsanalyse_. Binnen een bepaald kaartoppervlak van (bijvoorbeeld) 5 x 10 km maak je analyses en kaarten van verschillende lagen: geologie, geomorfologie, bodem, water, netwerken, bebouwing, vegetatie (voornamelijk bos en bomen) en ruimte en massa. Een hele stapel kalkpapier verder kan je de lagen op verschillende manieren over elkaar leggen.
 
-![Landschapsanalyse](/images/invloed-games/landschapsanalyse-1.webp)
+![Landschapsanalyse](/images/invloed-games/landschapsanalyse-2.webp)
 
 Het doel is vervolgen om de _samenhang_ in het landschap te duiden. Voor het gebied waar ik woon zou de samenhang bijvoorbeeld _reliëf_ kunnen zijn: de grote gemene deler die bepalend is voor de beleving van het landschap. Maar op basis van je analyse en de zwaartepunten die je legt kan je ook tot een andere conclusie komen. Het gaat om het proces, zorgvuldigheid en begrip. De benadering is nadrukkelijk inductief (van data naar theorie). Landschapsanalyse stelt een landschapsontwerper in staat om een ontwerp te maken dat is aangepast aan de context van het landschap, de _genius loci_ – en uiteindelijk onderscheidt zo’n ontwerp zich omdat het vaak bruikbaarder, duurzamer en aantrekkelijker is.
 
