@@ -1,14 +1,12 @@
 +++
 date = "2026-06-13"
 title = "De invloed van games op mijn gedachten over landschap"
-image = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/ss_d1a8f5a69155c3186c65d1da90491fcfd43663d9.1920x1080.jpg"
+image = "/images/invloed-games/landschapsanalyse-2.webp"
 +++
 ## De invloed van games op mijn gedachten over landschap
 _"Life imitates Art far more than Art imitates Life"_
 
 Het leuke aan een eigen website is dat ik er min of meer mee kan doen wat ik wil. De blog is vooral een soort tijdbeeld van wat ik op dat moment interessant vind. De laatste tijd was ik in mijn hoofd steeds bezig met de vraag waarom ik denk zoals ik denk over landschap en landschapsontwerp. Wat is bijvoorbeeld de invloed geweest van een van mijn hobby’s, gamen?
-
-![Read Dead Redemption 2](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/ss_d1a8f5a69155c3186c65d1da90491fcfd43663d9.1920x1080.jpg)
 
 Een tijdje terug luisterde ik een podcast met Swen Vincke van Larian Studio’s, de makers van Baldur’s Gate 3 (game van het jaar 2023). Vincke vertelt daarin over de startomgeving van het spel. De play-knop start automatisch op minuut 40:40, het stukje duurt tot ongeveer een minuut daarna:
 
@@ -36,6 +34,7 @@ De verhouding van speler tot landschap, dat is dus de kern van dit verhaal. Eers
 Een van de fundamentele vakken tijdens mijn opleiding was _landschapsanalyse_. Binnen een bepaald kaartoppervlak van (bijvoorbeeld) 5 x 10 km maak je analyses en kaarten van verschillende lagen: geologie, geomorfologie, bodem, water, netwerken, bebouwing, vegetatie (voornamelijk bos en bomen) en ruimte en massa. Een hele stapel kalkpapier verder kan je de lagen op verschillende manieren over elkaar leggen.
 
 ![Landschapsanalyse](/images/invloed-games/landschapsanalyse-2.webp)
+<!--more-->
 
 Het doel is vervolgen om de _samenhang_ in het landschap te duiden. Voor het gebied waar ik woon zou de samenhang bijvoorbeeld _reliëf_ kunnen zijn: de grote gemene deler die bepalend is voor de beleving van het landschap. Maar op basis van je analyse en de zwaartepunten die je legt kan je ook tot een andere conclusie komen. Het gaat om het proces, zorgvuldigheid en begrip. De benadering is nadrukkelijk inductief (van data naar theorie). Landschapsanalyse stelt een landschapsontwerper in staat om een ontwerp te maken dat is aangepast aan de context van het landschap, de _genius loci_ – en uiteindelijk onderscheidt zo’n ontwerp zich omdat het vaak bruikbaarder, duurzamer en aantrekkelijker is.
 
