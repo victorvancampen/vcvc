@@ -383,7 +383,7 @@ h1::after {
     position: absolute;
     bottom: 5px;
     left: 0;
-    height: 1px;
+    height: 0.333px;
     width: 100%;
     background-color: var(--font-color); /* Uses your theme's defined font color */
 }
