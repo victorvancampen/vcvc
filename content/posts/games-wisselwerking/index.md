@@ -1,12 +1,14 @@
 +++
 date = "2026-06-13"
 title = "De invloed van games op mijn gedachten over landschap"
-image = "/images/invloed-games/games-wisselwerking.png"
+image = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/ss_d1a8f5a69155c3186c65d1da90491fcfd43663d9.1920x1080.jpg"
 +++
 ## De invloed van games op mijn gedachten over landschap
 _"Life imitates Art far more than Art imitates Life"_
 
-Het leuke aan een eigen website is dat ik er min of meer mee kan doen wat ik wil. De blog is vooral een soort tijdbeeld van wat ik op dat moment interessant vind. De laatste tijd was ik in mijn hoofd steeds bezig met de vraag waarom ik denk zoals ik denk over landschap en landschapsontwerp. Wat is bijvoorbeeld de invloed geweest van een van mijn hobby’s, gamen? 
+Het leuke aan een eigen website is dat ik er min of meer mee kan doen wat ik wil. De blog is vooral een soort tijdbeeld van wat ik op dat moment interessant vind. De laatste tijd was ik in mijn hoofd steeds bezig met de vraag waarom ik denk zoals ik denk over landschap en landschapsontwerp. Wat is bijvoorbeeld de invloed geweest van een van mijn hobby’s, gamen?
+
+![Read Dead Redemption 2](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/ss_d1a8f5a69155c3186c65d1da90491fcfd43663d9.1920x1080.jpg)
 
 Een tijdje terug luisterde ik een podcast met Swen Vincke van Larian Studio’s, de makers van Baldur’s Gate 3 (game van het jaar 2023). Vincke vertelt daarin over de startomgeving van het spel. De play-knop start automatisch op minuut 40:40, het stukje duurt tot ongeveer een minuut daarna:
 
@@ -15,7 +17,6 @@ Een tijdje terug luisterde ik een podcast met Swen Vincke van Larian Studio’s,
 Deze gedachtenuitwisseling met een van de breinen achter het bekroonde Baldur’s Gate en de invloed van persoonlijke voorkeuren op (spel)ontwerp vind ik natuurlijk interessant. Maar ik wil nog een stap verder gaan, is er ook sprake van wederzijdse beïnvloeding, zoals weergegeven in het plaatje hieronder?
 
 ![Wisselwerking](/images/invloed-games/games-wisselwerking.png)
-<!--more-->
 
 ### Weg met clichés
 Maar eerst moet me dit van het hart: ik zal alle clichés overslaan dat games enerzijds laagcultuur of voor zolderkamernerds zouden zijn, of anderzijds juist een ondergewaardeerde kunstvorm, want ze kloppen geen van allen. In het Concertgebouw wordt game-muziek gespeeld. Van House of Cards (Call of Duty) tot Stranger Things (Dungeons & Dragons, waarop Baldur’s Gate 3 is geïnspireerd), megahit tv-series bevestigen en vergroten de plek van gamen in de mainstream. Een ondergewaardeerde kunstvorm zijn games ook weer niet, getuige de cultuurkatern van elke serieuze krant en de voor zo ver ik nu weet levendige academische discussie over games en landschap (daarover straks meer).
