@@ -8,6 +8,9 @@ _"Life imitates Art far more than Art imitates Life"_
 
 Het leuke aan een eigen website is dat ik er min of meer mee kan doen wat ik wil. De blog is vooral een soort tijdbeeld van wat ik op dat moment interessant vind. De laatste tijd was ik in mijn hoofd steeds bezig met de vraag waarom ik denk zoals ik denk over landschap en landschapsontwerp. Wat is bijvoorbeeld de invloed geweest van een van mijn hobby’s, gamen?
 
+![Uncharted 4](/images/invloed-games/Uncharted-4-offroad.gif)
+<!--more-->
+
 Een tijdje terug luisterde ik een podcast met Swen Vincke van Larian Studio’s, de makers van Baldur’s Gate 3 (game van het jaar 2023). Vincke vertelt daarin over de startomgeving van het spel. De play-knop start automatisch op minuut 40:40, het stukje duurt tot ongeveer een minuut daarna:
 
 {{< spotify type="episode" id="6S80SBIIKEcJUxrfTW4vj2" time="2438" >}}
