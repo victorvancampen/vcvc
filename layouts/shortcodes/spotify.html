@@ -1,6 +1,6 @@
 <div class="spotify-embed" style="margin: 1.5rem 0; width: 100%;">
   <iframe 
-    src="https://spotify.com{{ .Get "type" }}/{{ .Get "id" }}{{ if .Get "time" }}?time={{ .Get "time" }}{{ else }}?utm_source=generator&theme=0{{ end }}" 
+    src="https://open.spotify.com/embed/{{ .Get "type" }}/{{ .Get "id" }}{{ if .Get "time" }}?t={{ .Get "time" }}{{ else }}?utm_source=generator&theme=0{{ end }}" 
     width="100%" 
     height="152" 
     frameBorder="0" 
