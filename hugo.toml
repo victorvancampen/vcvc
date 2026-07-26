@@ -1,7 +1,7 @@
 baseURL = 'https://vcvc.nl/'
 locale = 'en-NL'
 theme = 'hugo-theme-console'
-title = 'Victor van Campen'
+title = 'Van Campen Landscape'
 
 [[module.imports]]
   path = "github.com/mrmierzejewski/hugo-theme-console"
@@ -11,7 +11,7 @@ title = 'Victor van Campen'
     dir = ':cacheDir/images'
 
 [params]
-  description = "Portfolio and blog on garden and landscape design"
+  description = "Landscape design studio specialised in utilities"
 
 # Cutting off the page title to two chars for mobile (console-demo -> co)
   titleCutting = true
@@ -23,6 +23,14 @@ title = 'Victor van Campen'
 [[params.navlinks]]
   name = "About"
   url = "/about/"
+
+[[params.navlinks]]
+  name = "Portfolio"
+  url = "/portfolio/"
+
+[[params.navlinks]]
+  name = "Bespoke"
+  url = "/bespoke/"
 
 [[params.navlinks]]
   name = "Posts"
