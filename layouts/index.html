@@ -1,10 +1,26 @@
 {{ define "main" }}
 
-<h1>About</h1>
+<h1>Portfolio</h1>
+
+<div class="posts-list">
+{{ with .Site.GetPage "/portfolio" }}
+    {{ range first 3 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+        <div class="post">
+            <p>
+                <div class="date">{{ .Date | time.Format ":date_medium" }}</div>
+                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+                {{ .Summary }}
+            </p>
+        </div>    
+    {{ end }}
+{{ end }}
+</div>
+
+<h1>Bespoke</h1>
 
 <p>
-    <img src="/images/ik-1/ik-1.webp" class="profile-subtle" alt="Victor">
-    Hi! This is a place where I keep a portfolio of my garden and landscape design work, and occasionally write about the subjects that inspire and fascinate me. <a href="about/">(more)</a>
+    <img src="/images/levedetuin/IMG_0401.webp" class="profile-subtle" alt="Tuinontwerp">
+    Designing private gardens is one of the most rewarding parts of my work. Whether you are reimagining an existing garden or starting from scratch, I create bespoke designs that respond to both the character of the place and the way you live. <a href="bespoke/">(more)</a>
 </p>
 <br/>
 
@@ -39,5 +55,13 @@
     {{ end }}
 {{ end }}
 </div>
+
+<h1>About</h1>
+
+<p>
+    <img src="/images/ik-1/ik-1.webp" class="profile-subtle" alt="Victor">
+    In every project, I aim to create landscapes that unite beauty, ecological sensitivity, and lasting practicality. My work begins with a careful understanding of place and the relationship between people and landscape, resulting in spaces that are both sustainable and attractive. <a href="about/">(more)</a>
+</p>
+<br/>
 
 {{ end }}

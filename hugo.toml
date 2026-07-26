@@ -21,10 +21,6 @@ title = 'Van Campen Landscape'
   animateStyle = "animated zoomIn fast" 
 
 [[params.navlinks]]
-  name = "About"
-  url = "/about/"
-
-[[params.navlinks]]
   name = "Portfolio"
   url = "/portfolio/"
 
@@ -39,3 +35,7 @@ title = 'Van Campen Landscape'
 [[params.navlinks]]
   name = "Photos"
   url = "/photos/"  
+
+  [[params.navlinks]]
+  name = "About"
+  url = "/about/"
