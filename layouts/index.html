@@ -1,9 +1,9 @@
 {{ define "main" }}
 
-<h1>Portfolio</h1>
+<h1>Work</h1>
 
 <div class="posts-list">
-{{ with .Site.GetPage "/portfolio" }}
+{{ with .Site.GetPage "/work" }}
     {{ range first 3 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
         <div class="post">
             <p>
