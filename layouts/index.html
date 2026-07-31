@@ -39,27 +39,11 @@
 {{ end }}
 </div>
 
-<h1>Laatste foto's</h1>
-
-<div class="image-grid">
-{{ with .Site.GetPage "/foto" }}
-    {{ range first 3 (sort .Pages "Date" "desc")}}
-        <a href="{{ .Permalink }}" title="{{ .Title }}">
-        {{ $image := .Page.Resources.GetMatch .Params.image }}
-        {{ with $image }}
-            {{ $thumb := .Resize "400x" }}
-            <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
-        {{end}}
-        </a>
-    {{ end }}
-{{ end }}
-</div>
-
 <h1>Over mij</h1>
 
 <p>
     <img src="/images/ik-1/ik-1.webp" class="profile-subtle" alt="Victor">
-    In every project, I aim to create landscapes that unite beauty, ecological sensitivity, and lasting practicality. My work begins with a careful understanding of place and the relationship between people and landscape, resulting in spaces that are both sustainable and attractive. <a href="about/">(more)</a>
+    Ik breng een combinatie van analytische vaardigheden, affiniteit met nutsvoorzieningen en plezier in ontwerp in de praktijk vanuit mijn eigen bureau, Van Campen Landschap: een landschapsontwerpbureau dat gespecialiseerd is in nutsvoorzieningen. <a href="about/">(meer)</a>
 </p>
 <br/>
 

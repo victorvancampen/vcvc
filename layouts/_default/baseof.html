@@ -49,22 +49,6 @@
       }
       .hero-image.loaded { opacity: 1; }
 
-      /* Vertical Title Styles for Homepage */
-      .home-title-vertical {
-        display: flex;
-        gap: 2rem;
-        font-family: 'Roboto Mono', monospace; /* Monospace is key for letter alignment */
-        font-weight: 700;
-        text-transform: uppercase;
-        margin: 2rem 0;
-        line-height: 1.1;
-        letter-spacing: 0.1em;
-      }
-      .vertical-word {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
     </style>
 </head>
 
@@ -106,21 +90,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <div class="container {{ .Site.Params.animateStyle }}" >
         {{ if .IsHome }}
-            <!-- 2. Vertical All-Caps Title -->
-            <div class="home-title-vertical">
-                <div class="vertical-word"><span>V</span><span>A</span><span>N</span></div>
-                <div class="vertical-word"><span>C</span><span>A</span><span>M</span><span>P</span><span>E</span><span>N</span></div>
-                <div class="vertical-word"><span>L</span><span>A</span><span>N</span><span>D</span><span>S</span><span>C</span><span>H</span><span>A</span><span>P</span></div>
-            </div>
-
-            <!-- 3. Randomized Hero Image -->
+            <!-- Randomized Hero Image -->
             <div class="hero-wrapper animated fadeIn">
                 <img id="hero-image" src="" alt="Van Campen Landschap Hero" class="hero-image">
             </div>
 
             <script>
               (function() {
-                const images = ['{{ "Hero-A.webp" | absURL }}', '{{ "Hero-B.webp" | absURL }}'];
+                const images = ['{{ "/images/hero/Hero-A.webp" | absURL }}', '{{ "/images/hero/Hero-B.webp" | absURL }}'];
                 const selected = images[Math.floor(Math.random() * images.length)];
                 const img = document.getElementById('hero-image');
                 if (img) {
