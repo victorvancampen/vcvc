@@ -1,9 +1,9 @@
 {{ define "main" }}
 
-<h1>Work</h1>
+<h1>Ontwerp</h1>
 
 <div class="posts-list">
-{{ with .Site.GetPage "/work" }}
+{{ with .Site.GetPage "/ontwerp" }}
     {{ range first 3 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
         <div class="post">
             <p>
@@ -16,17 +16,17 @@
 {{ end }}
 </div>
 
-<h1>Bespoke</h1>
+<h1>Advies</h1>
 
 <p>
-    Designing private gardens is one of the most rewarding parts of my work. Whether you are reimagining an existing garden or starting from scratch, I create bespoke designs that respond to both the character of the place and the way you live. <a href="bespoke/">(more)</a>
+    Met meer dan 10 jaar professionele ervaring in de energiesector, een sterke affiniteit met nutsvoorzieningen en landschap, en een grondige aanpak van onderwerpen van ontwerp tot beheer, adviseer ik graag als onderdeel van een breder (project)team.<a href="advies/">(meer)</a>
 </p>
 <br/>
 
-<h1>Latest posts</h1>
+<h1>Tuin</h1>
 
 <div class="posts-list">
-{{ with .Site.GetPage "/posts" }}
+{{ with .Site.GetPage "/tuin" }}
     {{ range first 3 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
         <div class="post">
             <p>
@@ -39,10 +39,10 @@
 {{ end }}
 </div>
 
-<h1>Latest photos</h1>
+<h1>Laatste foto's</h1>
 
 <div class="image-grid">
-{{ with .Site.GetPage "/photos" }}
+{{ with .Site.GetPage "/foto" }}
     {{ range first 3 (sort .Pages "Date" "desc")}}
         <a href="{{ .Permalink }}" title="{{ .Title }}">
         {{ $image := .Page.Resources.GetMatch .Params.image }}
@@ -55,7 +55,7 @@
 {{ end }}
 </div>
 
-<h1>About</h1>
+<h1>Over mij</h1>
 
 <p>
     <img src="/images/ik-1/ik-1.webp" class="profile-subtle" alt="Victor">

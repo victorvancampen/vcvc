@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ .Site.Title }}{{ $url := urls.Parse .Page.Permalink }}{{ $url.Path }}</title>
+    <!-- 1. Removed trailing slash from title -->
+    <title>{{ .Site.Title }}{{ if not .IsHome }}{{ $url := urls.Parse .Page.Permalink }}{{ $url.Path }}{{ end }}</title>
     {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -27,9 +28,46 @@
     {{ template "_internal/google_analytics.html" . }}
 
     {{- partial "header.html" . -}}
+
+    <style>
+      /* Hero Image Styles */
+      .hero-wrapper {
+        width: 100%;
+        margin-bottom: 2.5rem;
+        overflow: hidden;
+        border: 1px solid #1a1a1b;
+        border-radius: 4px;
+        background: #000;
+      }
+      .hero-image {
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+        display: block;
+        opacity: 0;
+        transition: opacity 0.8s ease-in-out;
+      }
+      .hero-image.loaded { opacity: 1; }
+
+      /* Vertical Title Styles for Homepage */
+      .home-title-vertical {
+        display: flex;
+        gap: 2rem;
+        font-family: 'Roboto Mono', monospace; /* Monospace is key for letter alignment */
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 2rem 0;
+        line-height: 1.1;
+        letter-spacing: 0.1em;
+      }
+      .vertical-word {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
 </head>
 
-<!--Thumbnail script-->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const posts = document.querySelectorAll(".post");
@@ -40,10 +78,9 @@ document.addEventListener("DOMContentLoaded", function() {
     if (title && target) {
       title.insertAdjacentElement("afterend", target);
     }
-  }); // <--- Make sure this is here!
-});   // <--- And this!
+  });
+});
 </script>
-<!--End Thumbnail script-->
 
 <body class="terminal">
     <div class="container">
@@ -52,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="logo terminal-prompt">
               {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
               {{ $.Scratch.Add "path" .Site.BaseURL }}
-              <a href="{{ .Site.BaseURL }}" class="no-style {{ with .Site.Params.TitleCutting }}site-name{{ end }}">{{ .Site.Title }}</a>/{{- range $index, $element := split $url "/" -}}{{ $.Scratch.Add "path" $element }}{{ if ne $element "" }}<a href='{{ $.Scratch.Get "path" | absURL }}'>{{ . }}</a>/{{ $.Scratch.Add "path" "/" }}{{ end }}{{- end }}</div></header>
+              <a href="{{ .Site.BaseURL }}" class="no-style {{ with .Site.Params.TitleCutting }}site-name{{ end }}">{{ .Site.Title }}</a>{{ if not .IsHome }}/{{ end }}{{- range $index, $element := split $url "/" -}}{{ $.Scratch.Add "path" $element }}{{ if ne $element "" }}<a href='{{ $.Scratch.Get "path" | absURL }}'>{{ . }}</a>/{{ $.Scratch.Add "path" "/" }}{{ end }}{{- end }}</div></header>
           <nav class="terminal-menu">
             <ul vocab="https://schema.org/" typeof="BreadcrumbList">
                 {{ range $index, $element := .Site.Params.navlinks }}
@@ -68,6 +105,32 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
 
     <div class="container {{ .Site.Params.animateStyle }}" >
+        {{ if .IsHome }}
+            <!-- 2. Vertical All-Caps Title -->
+            <div class="home-title-vertical">
+                <div class="vertical-word"><span>V</span><span>A</span><span>N</span></div>
+                <div class="vertical-word"><span>C</span><span>A</span><span>M</span><span>P</span><span>E</span><span>N</span></div>
+                <div class="vertical-word"><span>L</span><span>A</span><span>N</span><span>D</span><span>S</span><span>C</span><span>H</span><span>A</span><span>P</span></div>
+            </div>
+
+            <!-- 3. Randomized Hero Image -->
+            <div class="hero-wrapper animated fadeIn">
+                <img id="hero-image" src="" alt="Van Campen Landschap Hero" class="hero-image">
+            </div>
+
+            <script>
+              (function() {
+                const images = ['{{ "Hero-A.webp" | absURL }}', '{{ "Hero-B.webp" | absURL }}'];
+                const selected = images[Math.floor(Math.random() * images.length)];
+                const img = document.getElementById('hero-image');
+                if (img) {
+                  img.src = selected;
+                  img.onload = function() { img.classList.add('loaded'); };
+                }
+              })();
+            </script>
+        {{ end }}
+
         {{ block "main" . }}
         {{ end }}
         {{ partial "footer.html" . }}

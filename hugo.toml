@@ -1,7 +1,7 @@
 baseURL = 'https://vcvc.nl/'
 locale = 'en-NL'
 theme = 'hugo-theme-console'
-title = 'Van Campen Landscape'
+title = 'Van Campen Landschap'
 
 [[module.imports]]
   path = "github.com/mrmierzejewski/hugo-theme-console"
@@ -11,7 +11,7 @@ title = 'Van Campen Landscape'
     dir = ':cacheDir/images'
 
 [params]
-  description = "Landscape design studio specialised in utilities"
+  description = "Landschapsontwerp en -advies voor nutsvoorzieningen"
 
 # Cutting off the page title to two chars for mobile (console-demo -> co)
   titleCutting = true
@@ -21,21 +21,21 @@ title = 'Van Campen Landscape'
   animateStyle = "animated zoomIn fast" 
 
 [[params.navlinks]]
-  name = "Work"
-  url = "/work/"
+  name = "Ontwerp"
+  url = "/ontwerp/"
 
 [[params.navlinks]]
-  name = "Bespoke"
-  url = "/bespoke/"
+  name = "Advies"
+  url = "/advies/"
 
 [[params.navlinks]]
-  name = "Posts"
-  url = "/posts/"
+  name = "Tuin"
+  url = "/tuin/"
 
 [[params.navlinks]]
-  name = "Photos"
-  url = "/photos/"  
+  name = "Foto"
+  url = "/foto/"  
 
   [[params.navlinks]]
-  name = "About"
-  url = "/about/"
+  name = "Over mij"
+  url = "/overmij/"
