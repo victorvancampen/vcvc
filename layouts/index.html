@@ -1,3 +1,14 @@
+{{ define "head" }}
+    <link rel="stylesheet" href="{{ "vendor/photoswipe/5.4.4/photoswipe.css" | absURL }}" />
+    <script>
+        window.PHOTOSWIPE_CONFIG = {
+            lightboxUrl: '{{ "vendor/photoswipe/5.4.4/photoswipe-lightbox.esm.min.js" | absURL }}',
+            coreUrl: '{{ "vendor/photoswipe/5.4.4/photoswipe.esm.min.js" | absURL }}'
+        };
+    </script>
+    <script type="module" src="{{ "js/photoswipe-gallery.js" | absURL }}"></script>
+{{ end }}
+
 {{ define "main" }}
 
 <h1>Nieuws</h1>
@@ -18,19 +29,101 @@
 
 <h1>Ontwerp</h1>
 
-<div class="posts-list">
+<style>
+    .gallery-filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .gallery-filters .filter-btn {
+        background: transparent;
+        border: 1px solid var(--primary-color, #666);
+        color: inherit;
+        padding: 0.3rem 0.8rem;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 0.85rem;
+        text-transform: capitalize;
+    }
+    .gallery-filters .filter-btn.active {
+        background: var(--primary-color, #666);
+        color: var(--background-color, #fff);
+    }
+    #ontwerp-gallery {
+        columns: 3 220px;
+        column-gap: 0.75rem;
+    }
+    #ontwerp-gallery a {
+        display: block;
+        break-inside: avoid;
+        margin-bottom: 0.75rem;
+        line-height: 0;
+    }
+    #ontwerp-gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        display: block;
+        transition: opacity 0.2s ease;
+    }
+    #ontwerp-gallery a:hover img {
+        opacity: 0.85;
+    }
+    .pswp__custom-caption {
+        background: rgba(0, 0, 0, 0.65);
+        font-size: 14px;
+        color: #fff;
+        width: calc(100% - 32px);
+        max-width: 400px;
+        padding: 8px 12px;
+        border-radius: 4px;
+        position: absolute;
+        left: 50%;
+        bottom: 16px;
+        transform: translateX(-50%);
+    }
+</style>
+
 {{ with .Site.GetPage "/ontwerp" }}
-    {{ range first 3 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
-        <div class="post">
-            <p>
-                <div class="date">{{ .Date | time.Format ":date_medium" }}</div>
-                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-                {{ .Summary }}
-            </p>
-        </div>    
+    {{ $images := sort (.Resources.ByType "image") "Name" }}
+
+    {{ $categories := slice }}
+    {{ range $images }}
+        {{ $cat := .Params.category | default "overig" }}
+        {{ $categories = $categories | append $cat }}
     {{ end }}
+    {{ $categories = $categories | uniq | sort }}
+
+    {{ if gt (len $categories) 1 }}
+    <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">Alle</button>
+        {{ range $categories }}
+            <button class="filter-btn" data-filter="{{ . }}">{{ . }}</button>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="pswp-gallery" id="ontwerp-gallery">
+        {{ range $images }}
+            {{ $thumb := .Resize "500x" }}
+            {{ $large := .Resize "1600x" }}
+            {{ $cat := .Params.category | default "overig" }}
+            <a href="{{ $large.RelPermalink }}"
+               data-pswp-width="{{ $large.Width }}"
+               data-pswp-height="{{ $large.Height }}"
+               data-category="{{ $cat }}"
+               target="_blank"
+               rel="noreferrer">
+                <img src="{{ $thumb.RelPermalink }}"
+                     width="{{ $thumb.Width }}"
+                     height="{{ $thumb.Height }}"
+                     alt="{{ .Title }}"
+                     loading="lazy" />
+            </a>
+        {{ end }}
+    </div>
 {{ end }}
-</div>
 
 <h1>Advies</h1>
 

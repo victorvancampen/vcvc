@@ -43,12 +43,11 @@ border: 2px solid var(--primary-color);
         height: 450px;
         object-fit: cover;
         display: block;
-        opacity: 0;
-        transition: opacity 0.8s ease-in-out;
       }
-      .hero-image.loaded { opacity: 1; }
 
     </style>
+
+    {{ block "head" . }}{{ end }}
 </head>
 
 <script>
@@ -89,22 +88,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <div class="container {{ .Site.Params.animateStyle }}" >
         {{ if .IsHome }}
-            <!-- Randomized Hero Image -->
+            <!-- Deterministic hero image, picked server-side to avoid layout/LCP issues -->
+            {{ $heroes := slice "/images/hero/Hero-A.webp" "/images/hero/Hero-B.webp" }}
+            {{ $hero := index $heroes (mod now.Unix (len $heroes)) }}
             <div class="hero-wrapper animated fadeIn">
-                <img id="hero-image" src="" alt="Van Campen Landschap Hero" class="hero-image">
+                <img src="{{ $hero | absURL }}" alt="Van Campen Landschap Hero" class="hero-image" width="1600" height="450" fetchpriority="high">
             </div>
-
-            <script>
-              (function() {
-                const images = ['{{ "/images/hero/Hero-A.webp" | absURL }}', '{{ "/images/hero/Hero-B.webp" | absURL }}'];
-                const selected = images[Math.floor(Math.random() * images.length)];
-                const img = document.getElementById('hero-image');
-                if (img) {
-                  img.src = selected;
-                  img.onload = function() { img.classList.add('loaded'); };
-                }
-              })();
-            </script>
         {{ end }}
 
         {{ block "main" . }}
