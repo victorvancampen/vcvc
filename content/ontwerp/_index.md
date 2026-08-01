@@ -24,7 +24,7 @@ category = "publiek"
 src = "Uitvoeringstekening-Seniorenwoningen.webp"
 title = "Uitvoeringstekening voor een rustige, natuurlijke tuin voor seniorenwoningen. (Opleidingsproduct)"
 [resources.params]
-category = "publiek"
+category = "tuin"
 +++
 
 Hier vind je een overzicht van mijn ontwerp- en beheerwerk.

@@ -30,7 +30,7 @@
                     }
                 });
 
-                lightbox.pswp.ui.registerElement({
+            /*    lightbox.pswp.ui.registerElement({
                     name: "custom-caption",
                     order: 9,
                     isButton: false,
@@ -47,7 +47,7 @@
                             el.innerHTML = captionHTML;
                         });
                     }
-                });
+                }); */
             });
 
             lightbox.init();
