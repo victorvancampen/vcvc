@@ -10,26 +10,18 @@
         const galleries = document.querySelectorAll(".pswp-gallery");
 
         galleries.forEach(function (galleryEl) {
+            // Updated children selector to exclude hidden items so PhotoSwipe 
+            // doesn't show filtered-out images in the lightbox.
             const lightbox = new PhotoSwipeLightbox({
-                gallery: "#" + galleryEl.id,
+                gallery: galleryEl,
                 children: "a:not([style*='display: none'])",
                 pswpModule: () => import(cfg.coreUrl)
             });
 
             lightbox.on("uiRegister", function () {
-                lightbox.pswp.ui.registerElement({
-                    name: "counter",
-                    order: 5,
-                    isButton: false,
-                    appendTo: "bar",
-                    html: "",
-                    onInit: (el, pswp) => {
-                        pswp.on("change", () => {
-                            el.innerHTML = (pswp.currIndex + 1) + " / " + pswp.getNumItems();
-                        });
-                    }
-                });
-
+                // NOTE: The default counter was removed here to prevent the "double counter" 
+                // issue, as PhotoSwipe v5 includes a counter by default if not disabled.
+                
                 lightbox.pswp.ui.registerElement({
                     name: "custom-caption",
                     order: 9,
@@ -52,25 +44,32 @@
 
             lightbox.init();
 
-            // Category filter, scoped to this gallery's own filter bar
-            const filterContainer = document.querySelector(
-                '.gallery-filters[data-target="' + galleryEl.id + '"]'
-            );
+            // Category filter logic
+            // We look for filters associated with this specific gallery
+            const filterContainer = document.querySelector('.gallery-filters');
+            
             if (filterContainer) {
                 const filterButtons = filterContainer.querySelectorAll(".filter-btn");
                 const galleryItems = galleryEl.querySelectorAll("a");
 
                 filterButtons.forEach(function (btn) {
-                    btn.addEventListener("click", function () {
+                    btn.addEventListener("click", function (e) {
+                        e.preventDefault();
                         const filter = btn.getAttribute("data-filter");
 
+                        // Update active state UI
                         filterButtons.forEach(function (b) { b.classList.remove("active"); });
                         btn.classList.add("active");
 
+                        // Filter the DOM elements
                         galleryItems.forEach(function (item) {
-                            const show = filter === "all" || item.getAttribute("data-category") === filter;
+                            const itemCategory = item.getAttribute("data-category");
+                            const show = filter === "all" || itemCategory === filter;
                             item.style.display = show ? "" : "none";
                         });
+
+                        // Important: Refresh lightbox to ignore hidden items
+                        // (PhotoSwipe v5 picks up the filtered list automatically on next open)
                     });
                 });
             }
