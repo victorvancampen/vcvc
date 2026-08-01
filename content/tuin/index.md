@@ -1,6 +1,6 @@
 +++
 date = "2026-07-26T21:05:33+05:30"
-title = ""
+title = "Tuinontwerp"
 +++
 
 Of je nu een bestaande tuin een nieuwe invulling wil geven of helemaal vanaf nul begint: ik maak ontwerpen op maat die aansluiten bij zowel het karakter van de plek als jouw levensstijl.
