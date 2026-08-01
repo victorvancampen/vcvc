@@ -26,27 +26,6 @@
     {{ partial "gallery.html" (dict "page" . "id" "ontwerp-gallery") }}
 {{ end }}
 
-    <div class="pswp-gallery" id="ontwerp-gallery">
-        {{ range $images }}
-            {{ $thumb := .Resize "500x" }}
-            {{ $large := .Resize "1600x" }}
-            {{ $cat := .Params.category | default "overig" }}
-            <a href="{{ $large.RelPermalink }}"
-               data-pswp-width="{{ $large.Width }}"
-               data-pswp-height="{{ $large.Height }}"
-               data-category="{{ $cat }}"
-               target="_blank"
-               rel="noreferrer">
-                <img src="{{ $thumb.RelPermalink }}"
-                     width="{{ $thumb.Width }}"
-                     height="{{ $thumb.Height }}"
-                     alt="{{ .Title }}"
-                     loading="lazy" />
-            </a>
-        {{ end }}
-    </div>
-{{ end }}
-
 <h1>Advies</h1>
 
 <p>
