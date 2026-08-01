@@ -1,0 +1,9 @@
+{{ define "head" }}
+    {{ partial "gallery-head.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ partial "gallery.html" (dict "page" . "id" "ontwerp-gallery") }}
+{{ end }}

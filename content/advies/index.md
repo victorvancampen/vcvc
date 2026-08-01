@@ -3,8 +3,16 @@ date = "2026-07-26T21:05:33+05:30"
 title = "Advies"
 +++
 
-Met meer dan 10 jaar professionele ervaring in de energiesector, een sterke affiniteit met nutsvoorzieningen en landschap, en een doortastende aanpak, adviseer ik graag als onderdeel van een breder (project)team.
+Met meer dan 10 jaar professionele ervaring in de energiesector, een doortastende aanpak en een sterke affiniteit met nutsvoorzieningen en landschap, zet ik mijn expertise graag in als onderdeel van een breder (project)team.
 
-Advieswerkzaamheden waarin ik meerwaarde biedt zijn ontwikkeling van beleid (inclusief visualisaties), visies, ontwerp, participatie en beheer.
+Advieswerkzaamheden waarin ik meerwaarde bied zijn:
 
-Na een eerste kennismakingsgesprek stel ik een offerte op die is afgestemd op jouw project.
+* ontwikkeling van beleid
+* omzetting van beleid in concrete actie
+* visualisaties en infographics
+* visies en transformatieopgaven
+* landschapsontwerp
+* participatie
+* beheer
+
+Mocht je een geschikt project hebben, laten we dan kennismaken.

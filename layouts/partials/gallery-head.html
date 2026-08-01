@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="{{ "vendor/photoswipe/5.4.4/photoswipe.css" | absURL }}" />
+<script>
+    window.PHOTOSWIPE_CONFIG = {
+        lightboxUrl: '{{ "vendor/photoswipe/5.4.4/photoswipe-lightbox.esm.min.js" | absURL }}',
+        coreUrl: '{{ "vendor/photoswipe/5.4.4/photoswipe.esm.min.js" | absURL }}'
+    };
+</script>
+<script type="module" src="{{ "js/photoswipe-gallery.js" | absURL }}"></script>
+{{ partial "gallery-styles.html" . }}

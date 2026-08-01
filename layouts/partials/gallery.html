@@ -1,0 +1,41 @@
+{{/* Usage: {{ partial "gallery.html" (dict "page" . "id" "ontwerp-gallery") }} */}}
+{{ $page := .page }}
+{{ $id := .id }}
+{{ with $page }}
+    {{ $images := sort (.Resources.ByType "image") "Name" }}
+    {{ $categories := slice }}
+    {{ range $images }}
+        {{ $cat := .Params.category | default "overig" }}
+        {{ $categories = $categories | append $cat }}
+    {{ end }}
+    {{ $categories = $categories | uniq | sort }}
+
+{{ if gt (len $categories) 1 }}
+    <div class="gallery-filters" data-target="{{ $id }}">
+        <button class="filter-btn active" data-filter="all">Alle</button>
+        {{ range $categories }}
+            <button class="filter-btn" data-filter="{{ . }}">{{ . }}</button>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="pswp-gallery" id="{{ $id }}">
+        {{ range $images }}
+            {{ $thumb := .Resize "500x" }}
+            {{ $large := .Resize "1600x" }}
+            {{ $cat := .Params.category | default "overig" }}
+            <a href="{{ $large.RelPermalink }}"
+               data-pswp-width="{{ $large.Width }}"
+               data-pswp-height="{{ $large.Height }}"
+               data-category="{{ $cat }}"
+               target="_blank"
+               rel="noreferrer">
+                <img src="{{ $thumb.RelPermalink }}"
+                     width="{{ $thumb.Width }}"
+                     height="{{ $thumb.Height }}"
+                     alt="{{ .Title }}"
+                     loading="lazy" />
+            </a>
+        {{ end }}
+    </div>
+{{ end }}
