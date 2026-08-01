@@ -62,7 +62,7 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-	--background-color:#c5fff7;
+	--background-color:#F0EEE9;
 	--font-color:#151515;
 	--invert-font-color:#fff;
 	--primary-color:#fdb930;
