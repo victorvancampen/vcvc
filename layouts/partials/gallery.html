@@ -19,7 +19,7 @@
     </div>
     {{ end }}
 
-    <div class="pswp-gallery" id="{{ $id }}">
+    <div class="pswp-gallery pswp-gallery-grid" id="{{ $id }}">
         {{ range $images }}
             {{ $thumb := .Resize "500x" }}
             {{ $large := .Resize "1600x" }}

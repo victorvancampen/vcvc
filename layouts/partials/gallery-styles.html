@@ -1,58 +1,55 @@
 <style>
-    .gallery-filters {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .gallery-filters .filter-btn {
-        background: transparent;
-        border: 1px solid var(--primary-color, #666);
-        color: inherit;
-        font-family: inherit;
-        padding: 0.3rem 0.8rem;
-        border-radius: 4px;
-        cursor: pointer;
-        font-size: 0.85rem;
-        text-transform: capitalize;
-    }
-    .gallery-filters .filter-btn.active {
-        background: var(--primary-color, #666);
-        color: var(--background-color, #fff);
-    }
-    #ontwerp-gallery {
-        columns: 3 220px;
-        column-gap: 0.75rem;
-    }
-    #ontwerp-gallery a {
-        display: block;
-        break-inside: avoid;
-        margin-bottom: 0.75rem;
-        line-height: 0;
-    }
-    #ontwerp-gallery img {
-        width: 100%;
-        height: auto;
-        border-radius: 4px;
-        display: block;
-        transition: opacity 0.2s ease;
-    }
-    #ontwerp-gallery a:hover img {
-        opacity: 0.85;
-    }
-    .pswp__custom-caption {
-        background: rgba(0, 0, 0, 0.65);
-        font-size: 14px;
-        color: #fff;
-        width: calc(100% - 32px);
-        max-width: 400px;
-        padding: 8px 12px;
-        border-radius: 4px;
-        position: absolute;
-        left: 50%;
-        bottom: 16px;
-        transform: translateX(-50%);
-    }
+.gallery-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+.gallery-filters .filter-btn {
+    background: transparent;
+    border: 1px solid var(--primary-color, #666);
+    color: inherit;
+    font-family: inherit;
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    text-transform: capitalize;
+}
+.gallery-filters .filter-btn.active {
+    background: var(--primary-color, #666);
+    color: var(--background-color, #fff);
+}
+.pswp-gallery-grid {
+    columns: 3 220px;
+    column-gap: 0.75rem;
+}
+.pswp-gallery-grid a {
+    display: block;
+    break-inside: avoid;
+    margin-bottom: 0.75rem;
+    line-height: 0;
+}
+.pswp-gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+    transition: opacity 0.2s ease;
+}
+.pswp__custom-caption {
+    background: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    color: #fff;
+    width: calc(100% - 32px);
+    max-width: 400px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    position: absolute;
+    left: 50%;
+    bottom: 16px;
+    transform: translateX(-50%);
+}
     .pswp__counter:nth-child(2) {
     display: none !important;
 }
