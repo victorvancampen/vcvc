@@ -21,7 +21,7 @@ title = "Omvormingsplan met betrekking tot een stadspark, Lauwerspark in Arnhem.
 [resources.params]
 category = "publiek"
 [[resources]]
-src = "Uitvoeringstekening-Seniorenwoningen"
+src = "Uitvoeringstekening-Seniorenwoningen.webp"
 title = "Uitvoeringstekening voor een rustige, natuurlijke tuin voor seniorenwoningen. (Opleidingsproduct)"
 [resources.params]
 category = "publiek"
