@@ -23,23 +23,8 @@
 <h1>Ontwerp</h1>
 
 {{ with .Site.GetPage "/ontwerp" }}
-    {{ $images := sort (.Resources.ByType "image") "Name" }}
-
-    {{ $categories := slice }}
-    {{ range $images }}
-        {{ $cat := .Params.category | default "overig" }}
-        {{ $categories = $categories | append $cat }}
-    {{ end }}
-    {{ $categories = $categories | uniq | sort }}
-
-    {{ if gt (len $categories) 1 }}
-    <div class="gallery-filters">
-        <button class="filter-btn active" data-filter="all">Alle</button>
-        {{ range $categories }}
-            <button class="filter-btn" data-filter="{{ . }}">{{ . }}</button>
-        {{ end }}
-    </div>
-    {{ end }}
+    {{ partial "gallery.html" (dict "page" . "id" "ontwerp-gallery") }}
+{{ end }}
 
     <div class="pswp-gallery" id="ontwerp-gallery">
         {{ range $images }}
