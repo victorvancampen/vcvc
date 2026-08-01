@@ -1,5 +1,21 @@
 {{ define "main" }}
 
+<h1>Nieuws</h1>
+
+<div class="posts-list">
+{{ with .Site.GetPage "/nieuws" }}
+    {{ range first 3 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+        <div class="post">
+            <p>
+                <div class="date">{{ .Date | time.Format ":date_medium" }}</div>
+                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+                {{ .Summary }}
+            </p>
+        </div>    
+    {{ end }}
+{{ end }}
+</div>
+
 <h1>Ontwerp</h1>
 
 <div class="posts-list">
@@ -25,19 +41,10 @@
 
 <h1>Tuin</h1>
 
-<div class="posts-list">
-{{ with .Site.GetPage "/tuin" }}
-    {{ range first 3 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
-        <div class="post">
-            <p>
-                <div class="date">{{ .Date | time.Format ":date_medium" }}</div>
-                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-                {{ .Summary }}
-            </p>
-        </div>    
-    {{ end }}
-{{ end }}
-</div>
+<p>
+    Of je nu een bestaande tuin een nieuwe invulling wil geven of helemaal vanaf nul begint: ik maak ontwerpen op maat die aansluiten bij zowel het karakter van de plek als jouw levensstijl. <a href="tuin/">(meer)</a>
+</p>
+<br/>
 
 <h1>Over mij</h1>
 

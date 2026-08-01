@@ -52,7 +52,7 @@
 	--invert-font-color: #222225;
 	--secondary-color: #a3abba;
 	--tertiary-color: #a3abba;
-	--primary-color: #FF5F1F;
+	--primary-color: #fdb930;
 	--error-color: #ff3c74;
 	--progress-bar-background: #3f3f44;
 	--progress-bar-fill: #62c4ff;
@@ -62,10 +62,10 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-	--background-color:#d4e2eb;
+	--background-color:#c5fff7;
 	--font-color:#151515;
 	--invert-font-color:#fff;
-	--primary-color:#FF5F1F;
+	--primary-color:#fdb930;
 	--secondary-color:#727578;
 	--error-color:#d20962;
 	--progress-bar-background:#727578;
