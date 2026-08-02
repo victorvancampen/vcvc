@@ -12,8 +12,13 @@ title = "Uitgevoerd ontwerp voor een natuurlijke, klimaatbestendige en bijenvrie
 [resources.params]
 category = "tuin"
 [[resources]]
-src = "Landschapsplan.webp"
+src = "Landschapsplan-1.webp"
 title = "Vergelijking van de hitorische met de actuele beplantingsstructuur bij een beplantingsplan voor een paardenhouderij. (Opleidingsproduct)"
+[resources.params]
+category = "publiek"
+[[resources]]
+src = "Landschapsplan-2.webp"
+title = "Uitvoeringsgereed beplantingsplan voor een paardenhouderij. (Opleidingsproduct)"
 [resources.params]
 category = "publiek"
 [[resources]]
