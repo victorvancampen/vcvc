@@ -1,6 +1,6 @@
 +++
 date = "2026-07-26T21:05:33+05:30"
-title = "Tuinontwerp"
+title = "Tuin"
 [[resources]]
 src = "Tuinontwerp-1.webp"
 title = "Het begin van een goed tuinontwerp: een goed gesprek"
