@@ -6,6 +6,7 @@ src = "Tuinontwerp-1.webp"
 title = "Uitgevoerd ontwerp voor een natuurlijke, klimaatbestendige en bijenvriendelijke privétuin."
 [resources.params]
 category = "tuin"
+[[resources]]
 src = "Tuinontwerp-2.webp"
 title = "Uitgevoerd ontwerp voor een natuurlijke, klimaatbestendige en bijenvriendelijke privétuin."
 [resources.params]
@@ -20,7 +21,6 @@ src = "Axonometrie.webp"
 title = "Snelle axonometrie van bestaande situatie Jan van Riebeeckplein, Arnhem. (Opleidingsproduct)"
 [resources.params]
 category = "publiek"
-[[resources]]
 +++
 
 Hier vind je een overzicht van mijn ontwerpwerk.
