@@ -1,6 +1,7 @@
 +++
 date = "2026-07-26T21:05:33+05:30"
 title = "Advies"
+
 [[resources]]
 src = "Beheerplan-Arnhems-Buiten-1.webp"
 title = "Beheerplan voor een gedeelte van Electricity Campus Arnhems Buiten, Arnhem. (Opleidingsproduct)"
@@ -23,7 +24,7 @@ title = "Uitvoeringstekening voor een rustige, natuurlijke tuin voor seniorenwon
 category = "publiek"
 +++
 
-Met meer dan tien jaar professionele ervaring in de energiesector, een doortastende aanpak en een sterke affiniteit met nutsvoorzieningen en landschap, zet ik mijn expertise graag in als onderdeel van een breder (project)team.
+Met meer dan tien jaar professionele ervaring in de energiesector combineer ik een sterke affiniteit met nutsvoorzieningen en landschap met een integrale benadering van projecten, van ontwerp tot beheer. Als onderdeel van een multidisciplinair (project)team lever ik graag een bijdrage aan het realiseren van toekomstbestendige oplossingen.
 
 Advieswerkzaamheden waarin ik meerwaarde bied zijn:
 
