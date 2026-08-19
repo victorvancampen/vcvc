@@ -14,6 +14,7 @@ description: "CV Victor van Campen"
 ## Werkervaring
 
 ### Jurist Energierecht — TenneT TSO B.V.
+
 *September 2020 – Heden*  · Arnhem
 
 - (*Sinds 2025*) Zelfstandige begeleiding van een complex landschappelijk inpassingstraject van een grootschalige uitbreiding van hoogspanningsinfrastructuur samen met planologen, projectleiders en technische collega's.
@@ -22,6 +23,7 @@ description: "CV Victor van Campen"
 - Succesvolle voltooing van een groot aantal onderhandelingen, marktconsultaties en first of their kind projecten in het kader van de huidige energietransitie.
 
 ### Advocaat — Stibbe
+
 *Oktober 2015 – September 2020*  · Amsterdam
 
 - Praktijkgroepen: Energy & Industry en Banking & Finance
@@ -32,7 +34,7 @@ description: "CV Victor van Campen"
 
 ## Vaardigheden
 
-**Talen/Tools:** AutoCAD, Illustrator, Indesign, Photoshop, QGIS, Blender
+**Tools:** AutoCAD, Illustrator, Indesign, Photoshop, QGIS, Blender
 
 **Overig:** Actief lid Young NVTL · Volledig tweetalig Engels en Nederlands
 
@@ -42,11 +44,11 @@ description: "CV Victor van Campen"
 
 ### Tuin- & Landschapsinrichting Associate Degree — Hogeschool van Hall Larenstein
 
-*2023 – 2025*  · Cijfer eindgemiddelde 8.3
+*2023 – 2025* · Cijfer eindgemiddelde 8.3
 
 ### Privaatrecht Master of Laws (LL.M.) — Universiteit Utrecht
 
-*2014 – 2015*  · *Cum Laude*
+*2014 – 2015* · *Cum Laude*
 
 ### Tripos and Examination in Law for European Students (Erasmus-uitwisseling van één jaar) - Downing College, University of Cambridge
 
