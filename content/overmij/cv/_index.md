@@ -7,7 +7,7 @@ description: "CV Victor van Campen"
 
 # Victor van Campen
 
-**Landschapsontwerper + Jurist**
+**Landschapsontwerper + Ervaren jurist en ex-advocaat**
 Arnhem, Nederland · [linkedin.com/in/u](https://nl.linkedin.com/in/vancampen)
 
 ---
