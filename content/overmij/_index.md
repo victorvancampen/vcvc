@@ -3,7 +3,7 @@ date = "2026-05-05T21:05:33+05:30"
 title = "Over mij"
 +++
 
-Ik begon mijn carrière als advocaat, voordat ik in dienst trad bij TenneT, de landelijk netbeheerder voor elektriciteit. Daar zag ik de uitdagingen van het uitbreiden van nutsvoorzienbingen in een dichtbevolkt landschap met een rijke landschappelijke geschiedenis en een onzekere (klimaat-) toekomst. Die ervaring blijft tot op de dag van vandaag van invloed op mijn werk.
+Ik begon mijn carrière als advocaat, voordat ik in dienst trad bij TenneT, de landelijk netbeheerder voor elektriciteit. Daar zag ik de uitdagingen van het uitbreiden van nutsvoorzieningen in een dichtbevolkt landschap met een rijke landschappelijke geschiedenis en een onzekere (klimaat-) toekomst. Die ervaring blijft tot op de dag van vandaag van invloed op mijn werk.
 
 ![me](/images/ik-1/ik-1.webp)
 
