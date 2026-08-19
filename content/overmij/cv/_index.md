@@ -11,6 +11,8 @@ description: "CV Victor van Campen"
 
 [LinkedIn](https://nl.linkedin.com/in/vancampen)
 
+---
+
 ## Werkervaring
 
 ### Jurist Energierecht — TenneT TSO B.V.
@@ -53,5 +55,3 @@ description: "CV Victor van Campen"
 ### Tripos and Examination in Law for European Students (Erasmus-uitwisseling van één jaar) - Downing College, University of Cambridge
 
 *2013 – 2014*
-
----
