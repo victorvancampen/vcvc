@@ -4,15 +4,15 @@
 
 @font-face {
     font-family: "outfit";
-    src: url("../font/outfit.woff2") format("woff2");
+    src: url("../font/Outfit-VariableFont_wght.ttf") format("truetype");
     font-style: normal;
     font-weight: 100 900;
     text-rendering: optimizeLegibility;
 }
 
-@font-face {
+/*@font-face {
     font-family: "outfit";
-    src: url("../font/outfit.woff2") format("woff2");
+    src: url("../font/Outfit-VariableFont_wght.ttf") format("truetype");
     font-style: italic;
     font-weight: 500;
     text-rendering: optimizeLegibility;
@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: "outfit";
-    src: url("../font/outfit.woff2") format("woff2");
+    src: url("../font/Outfit-VariableFont_wght.ttf") format("truetype");
     font-style: normal;
     font-weight: 700;
     text-rendering: optimizeLegibility;
@@ -28,11 +28,11 @@
 
 @font-face {
     font-family: "outfit";
-    src: url("../font/outfit.woff2") format("woff2");
+    src: url("../font/Outfit-VariableFont_wght.ttf") format("truetype");
     font-style: italic;
     font-weight: 700;
     text-rendering: optimizeLegibility;
-}
+} */
 
 :root {
     --global-font-size: 16px;
