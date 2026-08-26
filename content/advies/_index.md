@@ -24,10 +24,14 @@ title = "Uitvoeringstekening voor een rustige, natuurlijke tuin voor seniorenwon
 category = "publiek"
 +++
 
-Met meer dan tien jaar professionele ervaring in de energiesector combineer ik een sterke affiniteit met nutsvoorzieningen en landschap met een integrale benadering van projecten, van ontwerp tot beheer. Als onderdeel van een multidisciplinair (project)team lever ik graag een bijdrage aan het realiseren van toekomstbestendige oplossingen.
+Met meer dan tien jaar professionele ervaring in de energiesector combineer ik een sterke affiniteit met nutsvoorzieningen en landschap met een integrale benadering van projecten, van ontwerp tot beheer.
 
-Advieswerkzaamheden waarin ik meerwaarde bied zijn:
+Als onderdeel van een multidisciplinair (project)team lever ik graag een bijdrage aan het realiseren van toekomstbestendige oplossingen. Ik werk met veel plezier samen met beleidsmedewerkers, ingenieurs, omgevingsmanagers en projectleiders om ruimtelijke ontwerpvraagstukken te vertalen naar actie.
 
+Werkzaamheden waarin ik meerwaarde bied zijn:
+
+* strategie
+* ontwerpend onderzoek
 * ontwikkeling van beleid
 * omzetting van beleid in concrete actie
 * visualisaties en infographics
