@@ -4,6 +4,21 @@
 
 {{ define "main" }}
 
+<h1>Over Van Campen Landschap</h1>
+
+<p>
+    <img src="/images/ik-1/ik-1.webp" class="profile-subtle" alt="Victor">
+    Van Campen Landschap is een jong landschapsontwerpbureau dat gespecialiseerd is in nutsvoorzieningen. Ik bied een combinatie van analytische vaardigheden, affiniteit met nutsvoorzieningen en plezier in ontwerp. <a href="overmij/">(meer)</a>
+</p>
+<br/>
+
+<h1>Advies</h1>
+
+<p>
+    Met meer dan tien jaar professionele ervaring in de energiesector combineer ik een sterke affiniteit met nutsvoorzieningen en landschap met een integrale benadering van projecten, van ontwerp tot beheer. Als onderdeel van een multidisciplinair (project)team lever ik graag een bijdrage aan het realiseren van toekomstbestendige oplossingen. <a href="advies/">(meer)</a>
+</p>
+<br/>
+
 <h1>Nieuws</h1>
 
 <div class="posts-list">
@@ -25,20 +40,5 @@
 {{ with .Site.GetPage "/ontwerp" }}
     {{ partial "gallery.html" (dict "page" . "id" "ontwerp-gallery") }}
 {{ end }}
-
-<h1>Advies</h1>
-
-<p>
-    Met meer dan tien jaar professionele ervaring in de energiesector combineer ik een sterke affiniteit met nutsvoorzieningen en landschap met een integrale benadering van projecten, van ontwerp tot beheer. Als onderdeel van een multidisciplinair (project)team lever ik graag een bijdrage aan het realiseren van toekomstbestendige oplossingen. <a href="advies/">(meer)</a>
-</p>
-<br/>
-
-<h1>Over Van Campen Landschap</h1>
-
-<p>
-    <img src="/images/ik-1/ik-1.webp" class="profile-subtle" alt="Victor">
-    Van Campen Landschap is een jong landschapsontwerpbureau dat gespecialiseerd is in nutsvoorzieningen. Ik bied een combinatie van analytische vaardigheden, affiniteit met nutsvoorzieningen en plezier in ontwerp. <a href="overmij/">(meer)</a>
-</p>
-<br/>
 
 {{ end }}
