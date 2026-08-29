@@ -341,7 +341,7 @@ figure {
 /* Custom site name styling */
 a.no-style.site-name {
   font-weight: 600 !important;
-  font-size: 2em !important;
+  font-size: 1.5em !important;
   color: var(--font-color) !important;
 }
 
