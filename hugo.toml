@@ -21,8 +21,8 @@ title = 'Van Campen Landschap'
   animateStyle = "animated zoomIn fast" 
 
 [[params.navlinks]]
-  name = "Over mij"
-  url = "/overmij/"
+  name = "Over"
+  url = "/over/"
 
 [[params.navlinks]]
   name = "Advies"
