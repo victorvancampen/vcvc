@@ -338,6 +338,17 @@ figure {
 
 }
 
+/* Smooth hover transitions on nav links */
+.terminal-menu li a {
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+/* Disable blinking terminal cursor */
+.terminal-prompt::after {
+  animation: none;
+  display: none; /* keep the cursor visible but static, or use opacity: 0 to hide it entirely */
+}
+
 /* Custom site name styling */
 a.no-style.site-name {
   font-weight: 600 !important;
